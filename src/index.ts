@@ -48,7 +48,7 @@ function openPopup(zoneName: string, popupName: string) {
     const zone = hiddenBallsCodes.find((item) => {
         return item.zone == zoneName
     });
-    currentPopup = WA.openPopup(popupName, `TEST Congratulations! You found a ball of the EURO 2020. Send the code below to the event organizer. Find the 4 hidden balls and you will get a unique reward! > CODE: ${zone?.code} <`, [
+    currentPopup = WA.openPopup(popupName, `Congratulations! You found a ball of the EURO 2020. Send the code below to the event organizer. Find the 4 hidden balls and you will get a unique reward! > CODE: ${zone?.code} <`, [
         {
             label: "Got it!",
             className: "normal",
